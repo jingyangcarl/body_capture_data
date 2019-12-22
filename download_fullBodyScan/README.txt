@@ -1,0 +1,1 @@
+Capturing Reality s.r.o. would like to thank the company PI3DSCAN (www.pi3dscan.com) for the opportunity to use their datasets Set2-a, Set2-b, Set2-c and Set-logo in this tutorial and also for the permission to distribute them.

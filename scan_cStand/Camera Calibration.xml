@@ -1,0 +1,756 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document version="1.5.0">
+  <chunk label="Chunk 1" enabled="true">
+    <sensors next_id="30">
+      <sensor id="0" label="unknown" type="frame">
+        <resolution width="1280" height="720"/>
+        <property name="layer_index" value="0"/>
+        <bands>
+          <band label="Red"/>
+          <band label="Green"/>
+          <band label="Blue"/>
+        </bands>
+        <data_type>uint8</data_type>
+        <calibration type="frame" class="adjusted">
+          <resolution width="1280" height="720"/>
+          <f>901.820494286926</f>
+        </calibration>
+        <covariance>
+          <params>f</params>
+          <coeffs>4.7050983245890909e-001</coeffs>
+        </covariance>
+        <black_level>0 0 0</black_level>
+        <sensitivity>1 1 1</sensitivity>
+      </sensor>
+      <sensor id="1" label="unknown" type="frame">
+        <resolution width="640" height="480"/>
+        <property name="layer_index" value="0"/>
+        <bands>
+          <band/>
+        </bands>
+        <data_type>uint16</data_type>
+        <calibration type="frame" class="adjusted">
+          <resolution width="640" height="480"/>
+          <f>633.302115532509</f>
+          <p1>0.00528042992510917</p1>
+          <p2>0.000146007382407622</p2>
+        </calibration>
+        <covariance>
+          <params>f p1 p2</params>
+          <coeffs>2.6153129869759828e-001 -9.2961816111886160e-006 -1.9688940412825005e-006 -9.2961816111886160e-006 1.2376798531243665e-008 -1.1558986108152474e-009 -1.9688940412825005e-006 -1.1558986108152474e-009 1.4430173987827918e-008</coeffs>
+        </covariance>
+        <black_level>0</black_level>
+        <sensitivity>1</sensitivity>
+      </sensor>
+      <sensor id="2" label="unknown" type="frame">
+        <resolution width="640" height="480"/>
+        <property name="layer_index" value="0"/>
+        <bands>
+          <band/>
+        </bands>
+        <calibration type="frame" class="adjusted">
+          <resolution width="640" height="480"/>
+          <f>631.827251900014</f>
+          <b2>-0.645653210875187</b2>
+          <p1>-0.000920253323416039</p1>
+          <p2>0.000189575176172537</p2>
+        </calibration>
+        <covariance>
+          <params>f b2 p1 p2</params>
+          <coeffs>1.9980678589411724e-001 1.0080131993064248e-003 6.3309419691704399e-006 8.0457193122480084e-006 1.0080131993064248e-003 3.0936699471350183e-003 -1.8556975998211786e-009 -5.0390662199328572e-007 6.3309419691704399e-006 -1.8556975998211786e-009 9.6161081044322964e-009 3.3446330824752596e-010 8.0457193122480084e-006 -5.0390662199328572e-007 3.3446330824752596e-010 1.2159035248662628e-008</coeffs>
+        </covariance>
+        <black_level>0</black_level>
+        <sensitivity>1</sensitivity>
+      </sensor>
+      <sensor id="3" label="unknown" type="frame">
+        <resolution width="640" height="480"/>
+        <property name="layer_index" value="0"/>
+        <bands>
+          <band/>
+        </bands>
+        <calibration type="frame" class="adjusted">
+          <resolution width="640" height="480"/>
+          <f>646.449128361878</f>
+          <p1>0.00431759519008676</p1>
+          <p2>0.00205752610536796</p2>
+        </calibration>
+        <covariance>
+          <params>f p1 p2</params>
+          <coeffs>4.0629725244131148e-001 4.2698755956897839e-005 4.9913321262353996e-006 4.2698755956897839e-005 2.1529625502648390e-008 1.4047759449433776e-009 4.9913321262353996e-006 1.4047759449433776e-009 1.4857847171299593e-008</coeffs>
+        </covariance>
+        <black_level>0</black_level>
+        <sensitivity>1</sensitivity>
+      </sensor>
+      <sensor id="4" label="unknown" type="frame">
+        <resolution width="640" height="480"/>
+        <property name="layer_index" value="0"/>
+        <bands>
+          <band/>
+        </bands>
+        <calibration type="frame" class="adjusted">
+          <resolution width="640" height="480"/>
+          <f>622.898147312361</f>
+          <p1>0.000688000453687317</p1>
+          <p2>-4.25771149374665e-005</p2>
+        </calibration>
+        <covariance>
+          <params>f p1 p2</params>
+          <coeffs>6.3363858993077937e-001 2.0989344597598444e-005 3.6765508661767935e-006 2.0989344597598444e-005 1.6109062195021401e-008 3.3467605063858344e-010 3.6765508661767935e-006 3.3467605063858344e-010 7.0822824762879132e-009</coeffs>
+        </covariance>
+        <black_level>0</black_level>
+        <sensitivity>1</sensitivity>
+      </sensor>
+      <sensor id="5" label="unknown" type="frame">
+        <resolution width="640" height="480"/>
+        <property name="layer_index" value="0"/>
+        <bands>
+          <band/>
+        </bands>
+        <calibration type="frame" class="adjusted">
+          <resolution width="640" height="480"/>
+          <f>635.658948383647</f>
+          <p1>-0.00267710166728356</p1>
+          <p2>-0.000530855790368763</p2>
+        </calibration>
+        <covariance>
+          <params>f p1 p2</params>
+          <coeffs>2.0195732342397088e+000 3.0724149210784503e-006 -6.4253614743542986e-005 3.0724149210784503e-006 3.5619206757044924e-008 -4.0890592710716487e-009 -6.4253614743542986e-005 -4.0890592710716487e-009 5.7132482739149802e-008</coeffs>
+        </covariance>
+        <black_level>0</black_level>
+        <sensitivity>1</sensitivity>
+      </sensor>
+      <sensor id="6" label="unknown" type="frame">
+        <resolution width="640" height="480"/>
+        <property name="layer_index" value="0"/>
+        <bands>
+          <band/>
+        </bands>
+        <calibration type="frame" class="adjusted">
+          <resolution width="640" height="480"/>
+          <f>661.156418186919</f>
+        </calibration>
+        <covariance>
+          <params>f</params>
+          <coeffs>2.1106506485504908e+000</coeffs>
+        </covariance>
+        <black_level>0</black_level>
+        <sensitivity>1</sensitivity>
+      </sensor>
+      <sensor id="7" label="unknown" type="frame">
+        <resolution width="640" height="480"/>
+        <property name="layer_index" value="0"/>
+        <bands>
+          <band/>
+        </bands>
+        <calibration type="frame" class="adjusted">
+          <resolution width="640" height="480"/>
+          <f>622.711141754451</f>
+        </calibration>
+        <covariance>
+          <params>f</params>
+          <coeffs>1.0945806440204708e+000</coeffs>
+        </covariance>
+        <black_level>0</black_level>
+        <sensitivity>1</sensitivity>
+      </sensor>
+      <sensor id="8" label="unknown" type="frame">
+        <resolution width="640" height="480"/>
+        <property name="layer_index" value="0"/>
+        <bands>
+          <band/>
+        </bands>
+        <calibration type="frame" class="adjusted">
+          <resolution width="640" height="480"/>
+          <f>615.032515911669</f>
+          <p1>0.00707131943101325</p1>
+          <p2>-0.00315362843038623</p2>
+        </calibration>
+        <covariance>
+          <params>f p1 p2</params>
+          <coeffs>5.9788187886357325e-001 -5.0973250486321112e-005 2.3805705011060534e-005 -5.0973250486321112e-005 4.8780879572389942e-008 -4.4491063131938970e-009 2.3805705011060534e-005 -4.4491063131938970e-009 2.3854981664241055e-008</coeffs>
+        </covariance>
+        <black_level>0</black_level>
+        <sensitivity>1</sensitivity>
+      </sensor>
+      <sensor id="9" label="unknown" type="frame">
+        <resolution width="640" height="480"/>
+        <property name="layer_index" value="0"/>
+        <bands>
+          <band/>
+        </bands>
+        <calibration type="frame" class="adjusted">
+          <resolution width="640" height="480"/>
+          <f>634.357314371328</f>
+          <b2>-0.63800373524987</b2>
+          <p1>-0.00106018265728858</p1>
+          <p2>-0.00175404752397207</p2>
+        </calibration>
+        <covariance>
+          <params>f b2 p1 p2</params>
+          <coeffs>2.4002863750284278e-001 4.1268213860650672e-003 -6.3871598577569129e-006 -1.6074630675445010e-005 4.1268213860650672e-003 8.4743538891136842e-003 -1.7040431433621399e-006 1.0797015009772036e-006 -6.3871598577569129e-006 -1.7040431433621399e-006 1.1040001645660387e-008 -8.3760425229418759e-010 -1.6074630675445010e-005 1.0797015009772036e-006 -8.3760425229418759e-010 1.6443291931471677e-008</coeffs>
+        </covariance>
+        <black_level>0</black_level>
+        <sensitivity>1</sensitivity>
+      </sensor>
+      <sensor id="10" label="unknown" type="frame">
+        <resolution width="640" height="480"/>
+        <property name="layer_index" value="0"/>
+        <bands>
+          <band/>
+        </bands>
+        <calibration type="frame" class="adjusted">
+          <resolution width="640" height="480"/>
+          <f>628.139274474296</f>
+          <p1>-0.000605479295954952</p1>
+          <p2>-0.00272066297889709</p2>
+        </calibration>
+        <covariance>
+          <params>f p1 p2</params>
+          <coeffs>1.3956619186276095e-001 5.3118383151454719e-006 -7.9823199838568881e-006 5.3118383151454719e-006 8.5091443955786452e-009 2.7182698839920364e-010 -7.9823199838568881e-006 2.7182698839920364e-010 1.4526766903933638e-008</coeffs>
+        </covariance>
+        <black_level>0</black_level>
+        <sensitivity>1</sensitivity>
+      </sensor>
+      <sensor id="11" label="unknown" type="frame">
+        <resolution width="640" height="480"/>
+        <property name="layer_index" value="0"/>
+        <bands>
+          <band/>
+        </bands>
+        <calibration type="frame" class="adjusted">
+          <resolution width="640" height="480"/>
+          <f>633.01465129025</f>
+          <p1>0.00520976497154989</p1>
+          <p2>0.000304627079281547</p2>
+        </calibration>
+        <covariance>
+          <params>f p1 p2</params>
+          <coeffs>2.6074251782046753e-001 -7.9484946691218883e-006 -1.9054688254500628e-006 -7.9484946691218883e-006 1.1507430840868748e-008 -3.8114039353247912e-010 -1.9054688254500628e-006 -3.8114039353247912e-010 1.3792373633485602e-008</coeffs>
+        </covariance>
+        <black_level>0</black_level>
+        <sensitivity>1</sensitivity>
+      </sensor>
+      <sensor id="12" label="unknown" type="frame">
+        <resolution width="640" height="480"/>
+        <property name="layer_index" value="0"/>
+        <bands>
+          <band/>
+        </bands>
+        <calibration type="frame" class="adjusted">
+          <resolution width="640" height="480"/>
+          <f>631.969004895189</f>
+          <p1>-0.00154435906650834</p1>
+          <p2>0.000406835762104377</p2>
+        </calibration>
+        <covariance>
+          <params>f p1 p2</params>
+          <coeffs>1.8183252786121915e-001 8.3353247704662852e-006 5.3503455823430490e-006 8.3353247704662852e-006 8.4241093114321340e-009 9.3735441017024977e-010 5.3503455823430490e-006 9.3735441017024977e-010 1.0740100820952756e-008</coeffs>
+        </covariance>
+        <black_level>0</black_level>
+        <sensitivity>1</sensitivity>
+      </sensor>
+      <sensor id="13" label="unknown" type="frame">
+        <resolution width="640" height="480"/>
+        <property name="layer_index" value="0"/>
+        <bands>
+          <band/>
+        </bands>
+        <calibration type="frame" class="adjusted">
+          <resolution width="640" height="480"/>
+          <f>645.175748521921</f>
+          <p1>0.00442279463439968</p1>
+          <p2>0.00310622542349544</p2>
+        </calibration>
+        <covariance>
+          <params>f p1 p2</params>
+          <coeffs>4.0277032084954162e-001 4.1431924335388033e-005 6.7846178135067615e-006 4.1431924335388033e-005 2.1391978235344442e-008 1.8563286443438053e-009 6.7846178135067615e-006 1.8563286443438053e-009 1.4935568011267074e-008</coeffs>
+        </covariance>
+        <black_level>0</black_level>
+        <sensitivity>1</sensitivity>
+      </sensor>
+      <sensor id="14" label="unknown" type="frame">
+        <resolution width="640" height="480"/>
+        <property name="layer_index" value="0"/>
+        <bands>
+          <band/>
+        </bands>
+        <calibration type="frame" class="adjusted">
+          <resolution width="640" height="480"/>
+          <f>621.582681204365</f>
+        </calibration>
+        <covariance>
+          <params>f</params>
+          <coeffs>6.3233193506007646e-001</coeffs>
+        </covariance>
+        <black_level>0</black_level>
+        <sensitivity>1</sensitivity>
+      </sensor>
+      <sensor id="15" label="unknown" type="frame">
+        <resolution width="640" height="480"/>
+        <property name="layer_index" value="0"/>
+        <bands>
+          <band/>
+        </bands>
+        <calibration type="frame" class="adjusted">
+          <resolution width="640" height="480"/>
+          <f>635.085212578628</f>
+          <p1>-0.00280556270205803</p1>
+          <p2>-0.000543506991954138</p2>
+        </calibration>
+        <covariance>
+          <params>f p1 p2</params>
+          <coeffs>2.0078533359821535e+000 -3.5188903482980408e-005 -6.7662591177009801e-005 -3.5188903482980408e-005 4.4373831143990717e-008 1.0293014941969047e-009 -6.7662591177009801e-005 1.0293014941969047e-009 6.0342283827754007e-008</coeffs>
+        </covariance>
+        <black_level>0</black_level>
+        <sensitivity>1</sensitivity>
+      </sensor>
+      <sensor id="16" label="unknown" type="frame">
+        <resolution width="640" height="480"/>
+        <property name="layer_index" value="0"/>
+        <bands>
+          <band/>
+        </bands>
+        <calibration type="frame" class="adjusted">
+          <resolution width="640" height="480"/>
+          <f>660.355770735908</f>
+        </calibration>
+        <covariance>
+          <params>f</params>
+          <coeffs>2.1075719880403661e+000</coeffs>
+        </covariance>
+        <black_level>0</black_level>
+        <sensitivity>1</sensitivity>
+      </sensor>
+      <sensor id="17" label="unknown" type="frame">
+        <resolution width="640" height="480"/>
+        <property name="layer_index" value="0"/>
+        <bands>
+          <band/>
+        </bands>
+        <calibration type="frame" class="adjusted">
+          <resolution width="640" height="480"/>
+          <f>622.443803543046</f>
+        </calibration>
+        <covariance>
+          <params>f</params>
+          <coeffs>1.0747190025070159e+000</coeffs>
+        </covariance>
+        <black_level>0</black_level>
+        <sensitivity>1</sensitivity>
+      </sensor>
+      <sensor id="18" label="unknown" type="frame">
+        <resolution width="640" height="480"/>
+        <property name="layer_index" value="0"/>
+        <bands>
+          <band/>
+        </bands>
+        <calibration type="frame" class="adjusted">
+          <resolution width="640" height="480"/>
+          <f>613.453315133955</f>
+          <p1>0.00695825217607941</p1>
+          <p2>-0.00289668412960304</p2>
+        </calibration>
+        <covariance>
+          <params>f p1 p2</params>
+          <coeffs>6.1289764557312387e-001 -5.8974001096376856e-005 2.6002020952899818e-005 -5.8974001096376856e-005 5.2238741153608448e-008 -4.1092682411228624e-009 2.6002020952899818e-005 -4.1092682411228624e-009 2.4594748860113917e-008</coeffs>
+        </covariance>
+        <black_level>0</black_level>
+        <sensitivity>1</sensitivity>
+      </sensor>
+      <sensor id="19" label="unknown" type="frame">
+        <resolution width="640" height="480"/>
+        <property name="layer_index" value="0"/>
+        <bands>
+          <band/>
+        </bands>
+        <calibration type="frame" class="adjusted">
+          <resolution width="640" height="480"/>
+          <f>633.646917286186</f>
+          <b2>-0.716511273019824</b2>
+          <p1>-0.000819196679305749</p1>
+          <p2>-0.00164018643835819</p2>
+        </calibration>
+        <covariance>
+          <params>f b2 p1 p2</params>
+          <coeffs>2.1895320320672998e-001 3.0451020340943437e-003 -1.0154626869002067e-005 -1.7192929516370911e-005 3.0451020340943437e-003 9.7072265835398200e-003 -1.6697060720012501e-006 2.7001465099387838e-006 -1.0154626869002067e-005 -1.6697060720012501e-006 1.1848223029538887e-008 -1.2485828440810722e-009 -1.7192929516370911e-005 2.7001465099387838e-006 -1.2485828440810722e-009 1.6456936591891254e-008</coeffs>
+        </covariance>
+        <black_level>0</black_level>
+        <sensitivity>1</sensitivity>
+      </sensor>
+      <sensor id="20" label="unknown" type="frame">
+        <resolution width="640" height="480"/>
+        <property name="layer_index" value="0"/>
+        <bands>
+          <band/>
+        </bands>
+        <calibration type="frame" class="adjusted">
+          <resolution width="640" height="480"/>
+          <f>627.642520539752</f>
+          <p1>-0.000675546092517391</p1>
+          <p2>-0.00248085087238092</p2>
+        </calibration>
+        <covariance>
+          <params>f p1 p2</params>
+          <coeffs>1.7100628914840113e-001 5.1654517525190603e-006 -1.0034355853377954e-005 5.1654517525190603e-006 8.3998064012952261e-009 -1.7657698942218586e-010 -1.0034355853377954e-005 -1.7657698942218586e-010 1.3797233708018859e-008</coeffs>
+        </covariance>
+        <black_level>0</black_level>
+        <sensitivity>1</sensitivity>
+      </sensor>
+      <sensor id="21" label="unknown" type="frame">
+        <resolution width="1280" height="720"/>
+        <property name="layer_index" value="0"/>
+        <bands>
+          <band label="Red"/>
+          <band label="Green"/>
+          <band label="Blue"/>
+        </bands>
+        <calibration type="frame" class="adjusted">
+          <resolution width="1280" height="720"/>
+          <f>914.167721074753</f>
+          <p1>0.00118104684746237</p1>
+          <p2>-0.000930699518212049</p2>
+        </calibration>
+        <covariance>
+          <params>f p1 p2</params>
+          <coeffs>3.1006126536978229e-001 5.4833736400137981e-006 6.0160738371996996e-006 5.4833736400137981e-006 4.1172313205787968e-009 -9.8061925037309340e-012 6.0160738371996996e-006 -9.8061925037309340e-012 1.1448859095890448e-008</coeffs>
+        </covariance>
+        <black_level>0 0 0</black_level>
+        <sensitivity>1 1 1</sensitivity>
+      </sensor>
+      <sensor id="22" label="unknown" type="frame">
+        <resolution width="1280" height="720"/>
+        <property name="layer_index" value="0"/>
+        <bands>
+          <band label="Red"/>
+          <band label="Green"/>
+          <band label="Blue"/>
+        </bands>
+        <calibration type="frame" class="adjusted">
+          <resolution width="1280" height="720"/>
+          <f>925.135846861318</f>
+        </calibration>
+        <covariance>
+          <params>f</params>
+          <coeffs>5.1262733747008293e-001</coeffs>
+        </covariance>
+        <black_level>0 0 0</black_level>
+        <sensitivity>1 1 1</sensitivity>
+      </sensor>
+      <sensor id="23" label="unknown" type="frame">
+        <resolution width="1280" height="720"/>
+        <property name="layer_index" value="0"/>
+        <bands>
+          <band label="Red"/>
+          <band label="Green"/>
+          <band label="Blue"/>
+        </bands>
+        <calibration type="frame" class="adjusted">
+          <resolution width="1280" height="720"/>
+          <f>912.413003526022</f>
+          <p1>-0.00310336293129687</p1>
+          <p2>-0.000844154480693042</p2>
+        </calibration>
+        <covariance>
+          <params>f p1 p2</params>
+          <coeffs>8.8626502279100272e-001 7.0132205047729459e-005 -2.5668525835115825e-006 7.0132205047729459e-005 2.3439682073013507e-008 9.8521285902824566e-010 -2.5668525835115825e-006 9.8521285902824566e-010 1.6195030001730598e-008</coeffs>
+        </covariance>
+        <black_level>0 0 0</black_level>
+        <sensitivity>1 1 1</sensitivity>
+      </sensor>
+      <sensor id="24" label="unknown" type="frame">
+        <resolution width="1280" height="720"/>
+        <property name="layer_index" value="0"/>
+        <bands>
+          <band label="Red"/>
+          <band label="Green"/>
+          <band label="Blue"/>
+        </bands>
+        <calibration type="frame" class="adjusted">
+          <resolution width="1280" height="720"/>
+          <f>916.792611673079</f>
+        </calibration>
+        <covariance>
+          <params>f</params>
+          <coeffs>3.3231888435958830e+000</coeffs>
+        </covariance>
+        <black_level>0 0 0</black_level>
+        <sensitivity>1 1 1</sensitivity>
+      </sensor>
+      <sensor id="25" label="unknown" type="frame">
+        <resolution width="1280" height="720"/>
+        <property name="layer_index" value="0"/>
+        <bands>
+          <band label="Red"/>
+          <band label="Green"/>
+          <band label="Blue"/>
+        </bands>
+        <calibration type="frame" class="adjusted">
+          <resolution width="1280" height="720"/>
+          <f>944.974127762397</f>
+          <p1>0.00557098838447475</p1>
+          <p2>-0.00132210751071978</p2>
+        </calibration>
+        <covariance>
+          <params>f p1 p2</params>
+          <coeffs>2.4323089926262105e+000 -7.0220506186647030e-005 -3.8442400561287077e-005 -7.0220506186647030e-005 2.5687571485155379e-008 -2.0898219422315179e-009 -3.8442400561287077e-005 -2.0898219422315179e-009 3.7286642677515377e-008</coeffs>
+        </covariance>
+        <black_level>0 0 0</black_level>
+        <sensitivity>1 1 1</sensitivity>
+      </sensor>
+      <sensor id="26" label="unknown" type="frame">
+        <resolution width="1280" height="720"/>
+        <property name="layer_index" value="0"/>
+        <bands>
+          <band label="Red"/>
+          <band label="Green"/>
+          <band label="Blue"/>
+        </bands>
+        <calibration type="frame" class="adjusted">
+          <resolution width="1280" height="720"/>
+          <f>913.737997601357</f>
+          <p1>0.0054712294167707</p1>
+          <p2>-0.000618626376937726</p2>
+        </calibration>
+        <covariance>
+          <params>f p1 p2</params>
+          <coeffs>1.4237198287481692e+000 -5.5132071093900081e-005 -1.2015244301594094e-006 -5.5132071093900081e-005 2.0671759726815967e-008 1.5691341304978820e-009 -1.2015244301594094e-006 1.5691341304978820e-009 2.6553579390359047e-008</coeffs>
+        </covariance>
+        <black_level>0 0 0</black_level>
+        <sensitivity>1 1 1</sensitivity>
+      </sensor>
+      <sensor id="27" label="unknown" type="frame">
+        <resolution width="1280" height="720"/>
+        <property name="layer_index" value="0"/>
+        <bands>
+          <band label="Red"/>
+          <band label="Green"/>
+          <band label="Blue"/>
+        </bands>
+        <calibration type="frame" class="adjusted">
+          <resolution width="1280" height="720"/>
+          <f>890.18574887513</f>
+          <p1>0.00496465807883279</p1>
+          <p2>-0.00753201108154707</p2>
+        </calibration>
+        <covariance>
+          <params>f p1 p2</params>
+          <coeffs>8.2304253379504633e-001 -5.0559884111919873e-005 9.4468842119849779e-006 -5.0559884111919873e-005 3.5098266737540849e-008 -4.6446338801557430e-009 9.4468842119849779e-006 -4.6446338801557430e-009 2.7623077505151712e-008</coeffs>
+        </covariance>
+        <black_level>0 0 0</black_level>
+        <sensitivity>1 1 1</sensitivity>
+      </sensor>
+      <sensor id="28" label="unknown" type="frame">
+        <resolution width="1280" height="720"/>
+        <property name="layer_index" value="0"/>
+        <bands>
+          <band label="Red"/>
+          <band label="Green"/>
+          <band label="Blue"/>
+        </bands>
+        <calibration type="frame" class="adjusted">
+          <resolution width="1280" height="720"/>
+          <f>906.998768445964</f>
+          <p1>0.00483886356892028</p1>
+          <p2>0.00306001394051347</p2>
+        </calibration>
+        <covariance>
+          <params>f p1 p2</params>
+          <coeffs>2.5484485892889741e-001 -1.4517155755195334e-005 -3.4813438038472597e-006 -1.4517155755195334e-005 6.4961170673948671e-009 -5.3748673147442409e-010 -3.4813438038472597e-006 -5.3748673147442409e-010 1.2060980740994153e-008</coeffs>
+        </covariance>
+        <black_level>0 0 0</black_level>
+        <sensitivity>1 1 1</sensitivity>
+      </sensor>
+      <sensor id="29" label="unknown" type="frame">
+        <resolution width="1280" height="720"/>
+        <property name="layer_index" value="0"/>
+        <bands>
+          <band label="Red"/>
+          <band label="Green"/>
+          <band label="Blue"/>
+        </bands>
+        <calibration type="frame" class="adjusted">
+          <resolution width="1280" height="720"/>
+          <f>903.389890357634</f>
+        </calibration>
+        <covariance>
+          <params>f</params>
+          <coeffs>2.2805732115648877e-001</coeffs>
+        </covariance>
+        <black_level>0 0 0</black_level>
+        <sensitivity>1 1 1</sensitivity>
+      </sensor>
+    </sensors>
+    <cameras next_id="40" next_group_id="0">
+      <camera id="0" sensor_id="0" label="colorImage_cam1_0">
+        <transform>7.7572320493057534e-001 3.5149635901218480e-002 6.3009365369621750e-001 -3.4022246434087364e+000 2.5883255733186165e-002 -9.9937959705703516e-001 2.3884682513454179e-002 -2.8741714004329755e-001 6.3054227963308496e-001 -2.2190272936088995e-003 -7.7615173098626944e-001 2.9251513555705819e+000 0 0 0 1</transform>
+      </camera>
+      <camera id="1" sensor_id="21" label="colorImage_cam2_0">
+        <transform>9.9466064991695069e-001 7.1292279402443606e-002 -7.4616368206936026e-002 -6.9426454959380057e-001 7.5908790993591727e-002 -9.9524848302256297e-001 6.0977967260141867e-002 -2.7795019859732073e-001 -6.9914568987302944e-002 -6.6316422844508491e-002 -9.9534621368869836e-001 3.9880858713772280e+000 0 0 0 1</transform>
+        <rotation_covariance>3.5739112584719035e-008 -5.4871497559378676e-009 -1.2899479308793212e-008 -5.4871497559378709e-009 2.3234203822600092e-007 -3.0431180817399557e-009 -1.2899479308793212e-008 -3.0431180817399569e-009 1.4857077737222716e-008</rotation_covariance>
+        <location_covariance>1.9761690706823126e-005 6.6073989889150226e-007 -9.5033448957414529e-006 6.6073989889150226e-007 2.4895120937610957e-006 -3.7773461771773246e-006 -9.5033448957414529e-006 -3.7773461771773246e-006 3.4238205434258539e-005</location_covariance>
+      </camera>
+      <camera id="2" sensor_id="22" label="colorImage_cam3_0">
+        <transform>6.9265106180045821e-001 1.0812347867763163e-002 -7.2119179121804000e-001 1.9590430952157891e+000 6.9895607618579769e-002 -9.9618791093265924e-001 5.2194349763686185e-002 -1.5846323656626271e-001 -7.1787820040890482e-001 -8.6560610240518240e-002 -6.9076634988428720e-001 2.9141283795974431e+000 0 0 0 1</transform>
+        <rotation_covariance>2.5152659920979017e-008 -6.6104278976728068e-009 -2.6885695510844414e-009 -6.6104278976728068e-009 3.0403624073108582e-007 -5.7849180522152738e-009 -2.6885695510844398e-009 -5.7849180522152771e-009 3.7324959312632140e-008</rotation_covariance>
+        <location_covariance>3.7716958690214030e-005 -3.2912569121389712e-007 7.0196814021422185e-006 -3.2912569121389712e-007 1.6035756492904989e-006 -1.4038845146825819e-006 7.0196814021422185e-006 -1.4038845146825819e-006 3.6207369687546865e-005</location_covariance>
+      </camera>
+      <camera id="3" sensor_id="23" label="colorImage_cam4_0">
+        <transform>-4.3312042175509213e-002 3.0503869061899759e-002 -9.9859580460506692e-001 2.9805469370077327e+000 6.2333234007359486e-003 -9.9950606825940747e-001 -3.0802032270654416e-002 -1.2645245237936373e-002 -9.9904214760037435e-001 -7.5586695175194878e-003 4.3100508502292079e-002 8.6973027934523134e-002 0 0 0 1</transform>
+        <rotation_covariance>4.9990624326148547e-008 -3.8069028742520722e-009 1.2942526459958986e-008 -3.8069028742520722e-009 3.0970986521785997e-007 3.2268309978786651e-009 1.2942526459958986e-008 3.2268309978786623e-009 3.1909498643744224e-008</rotation_covariance>
+        <location_covariance>8.4246911739751303e-005 2.1978856375424501e-006 -1.6260725636087611e-005 2.1978856375424501e-006 1.8582577592524533e-006 -5.0712998783730511e-007 -1.6260725636087611e-005 -5.0712998783730511e-007 2.4559883576127554e-005</location_covariance>
+      </camera>
+      <camera id="4" sensor_id="24" label="colorImage_cam5_0">
+        <transform>-7.7875907008996048e-001 1.0818094048630952e-001 -6.1792491037998931e-001 1.7465562698082879e+000 9.6447641604074791e-003 -9.8283738151426037e-001 -1.8422176859014822e-001 3.2675213055185941e-002 -6.2724898507443660e-001 -1.4942411322704741e-001 7.6435014562005510e-001 -2.4818195780306613e+000 0 0 0 1</transform>
+        <rotation_covariance>1.1934159434882852e-007 -2.7741951772254892e-009 -4.7646500448868874e-009 -2.7741951772254925e-009 5.1548754869040662e-007 6.4611677394984688e-008 -4.7646500448868766e-009 6.4611677394984688e-008 3.3068655375047179e-008</rotation_covariance>
+        <location_covariance>1.1742275105604074e-004 9.9117663731931561e-006 -1.0208591610074692e-004 9.9117663731931561e-006 2.4239585005620604e-006 -1.0576739988092225e-005 -1.0208591610074692e-004 -1.0576739988092225e-005 1.4929041588626556e-004</location_covariance>
+      </camera>
+      <camera id="5" sensor_id="25" label="colorImage_cam6_0">
+        <transform>-9.9805532927726137e-001 5.0157399987075302e-002 3.7010740708534509e-002 -9.5056232505635418e-001 -5.4368698304338881e-002 -9.9088047148360792e-001 -1.2328802000646745e-001 4.3930507099062141e-002 3.0489413670151205e-002 -1.2506049119909862e-001 9.9168052778860705e-001 -3.7299788848362780e+000 0 0 0 1</transform>
+        <rotation_covariance>1.1073953597973685e-007 2.8414613252799543e-008 -6.3868921125970394e-010 2.8414613252799546e-008 4.7685417686143488e-007 4.3586038965709367e-008 -6.3868921125970394e-010 4.3586038965709360e-008 3.5892654455898316e-008</rotation_covariance>
+        <location_covariance>3.3994888489581875e-005 7.8942481625399652e-007 -2.3644464146062533e-005 7.8942481625399652e-007 4.7337966920749986e-006 -9.8729281362139245e-006 -2.3644464146062533e-005 -9.8729281362139245e-006 1.5784577861937849e-004</location_covariance>
+      </camera>
+      <camera id="6" sensor_id="26" label="colorImage_cam7_0">
+        <transform>-6.4055450476992803e-001 2.3200376951646406e-002 7.6756215965109553e-001 -3.5564964495555400e+000 -5.5087138702275502e-002 -9.9835660352265676e-001 -1.5795548496356816e-002 -1.0199939663490197e-001 7.6593428802250907e-001 -5.2400712895971251e-002 6.4077986213632299e-001 -2.2666650653520826e+000 0 0 0 1</transform>
+        <rotation_covariance>6.7433902663108222e-008 1.8246500031111630e-008 -6.0574444210621644e-010 1.8246500031111627e-008 6.1522124224793483e-007 1.2799137590409069e-008 -6.0574444210621313e-010 1.2799137590409073e-008 4.5681788011421786e-008</rotation_covariance>
+        <location_covariance>6.5542503028880801e-005 3.2677254537587869e-006 2.4430928183649814e-005 3.2677254537587869e-006 3.4305602685197666e-006 4.6271399113143513e-007 2.4430928183649814e-005 4.6271399113143513e-007 9.0212050857779532e-005</location_covariance>
+      </camera>
+      <camera id="7" sensor_id="27" label="colorImage_cam8_0">
+        <transform>2.4012440428997639e-003 7.6977460660285116e-002 9.9702994166541514e-001 -4.3671640899036568e+000 -5.6031239662641022e-002 -9.9545612758945423e-001 7.6990897036443379e-002 -1.4680399534022359e-001 9.9842612856881607e-001 -5.6049697545150073e-002 1.9228094505359273e-003 3.2955533606839299e-001 0 0 0 1</transform>
+        <rotation_covariance>7.0676856579206197e-008 3.4706851634358201e-009 2.1646348931600024e-008 3.4706851634358201e-009 3.1604530137244836e-007 1.3496660876444170e-009 2.1646348931600021e-008 1.3496660876444133e-009 2.6327441614155307e-008</rotation_covariance>
+        <location_covariance>7.8954021688159369e-005 6.6955983299164525e-006 -2.5077443487340266e-006 6.6955983299164525e-006 5.3446364709947699e-006 -1.2652828204231873e-006 -2.5077443487340266e-006 -1.2652828204231873e-006 3.6229742327150312e-005</location_covariance>
+      </camera>
+      <camera id="8" sensor_id="28" label="colorImage_cam9_0">
+        <transform>7.3705818606236151e-001 -8.0389962218315222e-002 6.7103106063206852e-001 -3.4396895754170442e+000 2.8534096599369941e-002 -9.8831323007815919e-001 -1.4974232729503797e-001 2.6355291321541792e+000 6.7522665504978308e-001 1.2951607323809070e-001 -7.2615050167528405e-001 3.0716062233634727e+000 0 0 0 1</transform>
+        <rotation_covariance>4.5095056188039288e-008 5.8074343528723655e-009 7.2957321624035711e-009 5.8074343528723622e-009 1.7971582665138064e-007 3.1337707583223624e-008 7.2957321624035727e-009 3.1337707583223618e-008 1.5081223126462343e-008</rotation_covariance>
+        <location_covariance>2.0484082132943874e-005 -4.6923938862694609e-006 -1.0889468627450429e-005 -4.6923938862694609e-006 7.0941354440543124e-006 3.4965832080695507e-007 -1.0889468627450429e-005 3.4965832080695507e-007 2.3851846400354781e-005</location_covariance>
+      </camera>
+      <camera id="9" sensor_id="29" label="colorImage_cam10_0">
+        <transform>9.9704582238679396e-001 7.2477694538462506e-002 -2.5428563770501893e-002 -8.0612887846363801e-001 6.3619564394339342e-002 -9.6476344253405466e-001 -2.5531167418689399e-001 2.6620226671117435e+000 -4.3036950255747303e-002 2.5293968400436789e-001 -9.6652435932492420e-001 3.9921572105107819e+000 0 0 0 1</transform>
+        <rotation_covariance>3.9709145417862209e-008 1.4114464218629685e-008 -1.2495376644603918e-008 1.4114464218629680e-008 1.6569804851212763e-007 3.3189631116758217e-008 -1.2495376644603921e-008 3.3189631116758211e-008 2.5628282762481907e-008</rotation_covariance>
+        <location_covariance>1.5062338483287322e-005 -1.1493892011653448e-007 -1.0765465161974531e-005 -1.1493892011653448e-007 7.1224984246224873e-006 4.4898479077240040e-006 -1.0765465161974531e-005 4.4898479077240040e-006 2.9627367145191300e-005</location_covariance>
+      </camera>
+      <camera id="20" sensor_id="1" label="inferredImage1_cam1_0">
+        <transform>7.6662907378469503e-001 2.8991745323656722e-002 6.4143537627036817e-001 -3.4513196145860014e+000 2.2896442156158454e-002 -9.9957912039861807e-001 1.7813899059855767e-002 -3.1212764275989041e-001 6.4168186522965565e-001 1.0299350529369708e-003 -7.6697022306552176e-001 3.1193862576013758e+000 0 0 0 1</transform>
+        <rotation_covariance>5.8165449986306015e-008 -3.5745275940498199e-009 2.8086013362760149e-009 -3.5745275940498191e-009 2.1177215728383236e-007 1.2171657296292179e-008 2.8086013362760078e-009 1.2171657296292181e-008 5.5392470403224130e-009</rotation_covariance>
+        <location_covariance>3.1047089519040810e-005 3.0440170509480050e-006 -1.9594572302669016e-005 3.0440170509480050e-006 3.5519831271780098e-006 -3.7314671788442042e-006 -1.9594572302669016e-005 -3.7314671788442042e-006 3.5444166074354960e-005</location_covariance>
+      </camera>
+      <camera id="21" sensor_id="2" label="inferredImage1_cam2_0">
+        <transform>9.9486596816433126e-001 7.1533378825448496e-002 -7.1586878003328996e-002 -6.8265244481522203e-001 7.5724323270349864e-002 -9.9546094421409448e-001 5.7648377337366566e-002 -3.0276595112402216e-001 -6.7138157955786787e-002 -6.2773276624681185e-002 -9.9576703273813261e-001 4.0943912578944364e+000 0 0 0 1</transform>
+        <rotation_covariance>5.1655239320458354e-008 -3.8989425022046090e-009 -1.4770559019337336e-008 -3.8989425022046081e-009 2.2931763323238948e-007 -2.7966505571088072e-009 -1.4770559019337339e-008 -2.7966505571088063e-009 1.6117798156981153e-008</rotation_covariance>
+        <location_covariance>1.8667503735162475e-005 8.8452701032958179e-007 -1.1093484086293651e-005 8.8452701032958179e-007 3.7321186584013326e-006 -4.9865617423522041e-006 -1.1093484086293651e-005 -4.9865617423522041e-006 4.1987715347357694e-005</location_covariance>
+      </camera>
+      <camera id="22" sensor_id="3" label="inferredImage1_cam3_0">
+        <transform>7.0037764649571599e-001 1.2285782196773364e-002 -7.1366673724150442e-001 2.1120753582567811e+000 6.8217900618771934e-002 -9.9642704884597744e-001 4.9794119765922878e-002 -1.8252059051240180e-001 -7.1050508113896615e-001 -8.3559534967047072e-002 -6.9871334164434085e-001 2.9568242460912484e+000 0 0 0 1</transform>
+        <rotation_covariance>4.9210328880756665e-008 -1.6480786149428128e-008 -9.9732414572123543e-009 -1.6480786149428128e-008 3.2028087596143936e-007 -9.3284919314647069e-009 -9.9732414572123592e-009 -9.3284919314647053e-009 3.8094068705604139e-008</rotation_covariance>
+        <location_covariance>4.9478634176253493e-005 -3.1476069186111703e-006 2.2132438141254476e-005 -3.1476069186111703e-006 3.6112467807434655e-006 -3.6262155673317675e-006 2.2132438141254476e-005 -3.6262155673317675e-006 5.5466962448401955e-005</location_covariance>
+      </camera>
+      <camera id="23" sensor_id="4" label="inferredImage1_cam4_0">
+        <transform>-3.6266585841038729e-002 2.6795467181277802e-002 -9.9898285154950095e-001 3.0700694776290707e+000 4.0618299660379331e-003 -9.9962825447217663e-001 -2.6960237354972875e-002 -1.7409249214250650e-002 -9.9933389629730973e-001 -5.0354542443108996e-003 3.6144265268391790e-002 -6.4055280724880689e-002 0 0 0 1</transform>
+        <rotation_covariance>8.2410210355427084e-008 -9.3880962724433551e-009 4.6238910630777286e-009 -9.3880962724433567e-009 3.8836662612485564e-007 1.8190341427510806e-009 4.6238910630777286e-009 1.8190341427510781e-009 3.5711464481122771e-008</rotation_covariance>
+        <location_covariance>1.2142896481307824e-004 4.6338969278725398e-006 -2.7129941303430263e-005 4.6338969278725398e-006 4.1216892239240107e-006 -4.5663440910445021e-007 -2.7129941303430263e-005 -4.5663440910445021e-007 3.0209689865674963e-005</location_covariance>
+      </camera>
+      <camera id="24" sensor_id="5" label="inferredImage1_cam5_0">
+        <transform>-7.7596320431353805e-001 1.1454053735703712e-001 -6.2029152086210881e-001 1.8207155174779233e+000 9.9499373271944164e-003 -9.8103007205418769e-001 -1.9360009419558710e-001 6.3178173788789690e-002 -6.3069969422749161e-001 -1.5639841120457854e-001 7.6010356707098292e-001 -2.5719800593293978e+000 0 0 0 1</transform>
+        <rotation_covariance>1.4355552637327923e-007 -1.8948091519538843e-009 -3.7372660939543249e-009 -1.8948091519538826e-009 5.2863904205549545e-007 6.2815407872692849e-008 -3.7372660939543332e-009 6.2815407872692849e-008 3.4089541777008904e-008</rotation_covariance>
+        <location_covariance>1.5082648532427801e-004 2.1653230063474914e-005 -1.3606497047118958e-004 2.1653230063474914e-005 7.6241853078739440e-006 -2.3244352549981219e-005 -1.3606497047118958e-004 -2.3244352549981219e-005 1.8569749246499629e-004</location_covariance>
+      </camera>
+      <camera id="25" sensor_id="6" label="inferredImage1_cam6_0">
+        <transform>-9.9807137556867220e-001 4.8913299636401841e-002 3.8223270256970421e-002 -9.7858290922061486e-001 -5.3299058851892997e-002 -9.9088536519172932e-001 -1.2371500868672067e-001 6.3175952652995304e-002 3.1823569817986730e-002 -1.2551367322938320e-001 9.9158135230373645e-001 -4.0184679229595295e+000 0 0 0 1</transform>
+        <rotation_covariance>1.1604452142219320e-007 3.0357961582753338e-008 -2.3811905892697840e-009 3.0357961582753325e-008 5.3454302249229727e-007 4.8969047676190615e-008 -2.3811905892697857e-009 4.8969047676190629e-008 3.7912771217999758e-008</rotation_covariance>
+        <location_covariance>4.1414958658037963e-005 -1.5371247420094992e-009 -1.3656374818086417e-005 -1.5371247420094992e-009 5.3502412557663135e-006 -1.8977714827084679e-005 -1.3656374818086417e-005 -1.8977714827084679e-005 2.9692517096458783e-004</location_covariance>
+      </camera>
+      <camera id="26" sensor_id="7" label="inferredImage1_cam7_0">
+        <transform>-6.3300192773948838e-001 2.4842036175345479e-002 7.7375153164097432e-001 -3.6727390724704390e+000 -5.4767957585046448e-002 -9.9841769965284710e-001 -1.2750209483766088e-002 -1.3413798766831594e-001 7.7221048315860952e-001 -5.0447698248584222e-002 6.3336087615305592e-001 -2.3376925039138441e+000 0 0 0 1</transform>
+        <rotation_covariance>8.7328313918551297e-008 1.8988820525783209e-008 -5.4566722990934831e-009 1.8988820525783209e-008 6.2609107414566409e-007 8.0484849783945547e-009 -5.4566722990934864e-009 8.0484849783945547e-009 4.7429064720623201e-008</rotation_covariance>
+        <location_covariance>1.0271161043873033e-004 4.3371076831029666e-006 5.6876375626213648e-005 4.3371076831029666e-006 4.6291423879724802e-006 1.3259681517860420e-006 5.6876375626213648e-005 1.3259681517860420e-006 1.2310403982965275e-004</location_covariance>
+      </camera>
+      <camera id="27" sensor_id="8" label="inferredImage1_cam8_0">
+        <transform>-6.7927096842638479e-003 7.8391351699885092e-002 9.9689952105205148e-001 -4.5752793291337168e+000 -5.3728778737691510e-002 -9.9551107680709794e-001 7.7916072088678928e-002 -1.9386277232072788e-001 9.9853246188118583e-001 -5.3032932532879801e-002 1.0974089322651398e-002 4.3545588824388493e-001 0 0 0 1</transform>
+        <rotation_covariance>6.8391435076934318e-008 1.4121856890315922e-008 1.9660536949865253e-008 1.4121856890315927e-008 3.5867113467157521e-007 -5.7678736868702922e-009 1.9660536949865249e-008 -5.7678736868702980e-009 2.7371178104396587e-008</rotation_covariance>
+        <location_covariance>1.1832502412239431e-004 7.3811450968887879e-006 -2.5715894368706672e-006 7.3811450968887879e-006 5.0953481153246418e-006 -6.5115772536305205e-007 -2.5715894368706672e-006 -6.5115772536305205e-007 3.8862427319766325e-005</location_covariance>
+      </camera>
+      <camera id="28" sensor_id="9" label="inferredImage1_cam9_0">
+        <transform>7.4291554487385714e-001 -7.8933006591058452e-002 6.6471503191614056e-001 -3.5414849554566032e+000 2.5529539869293988e-002 -9.8895968827459024e-001 -1.4596909796901622e-001 2.6972229313539278e+000 6.6889815052729951e-001 1.2541258086141921e-001 -7.3269840233402750e-001 3.1774185913954174e+000 0 0 0 1</transform>
+        <rotation_covariance>5.9811804951328587e-008 3.3183168091910937e-009 8.3100177958436808e-009 3.3183168091910929e-009 2.1841867382687062e-007 2.9834028287604833e-008 8.3100177958436891e-009 2.9834028287604826e-008 2.0020022261615903e-008</rotation_covariance>
+        <location_covariance>3.2678567825964052e-005 -7.4598496382676260e-006 -1.9543389311327227e-005 -7.4598496382676260e-006 8.8969960551085959e-006 3.5691259610472546e-006 -1.9543389311327227e-005 3.5691259610472546e-006 3.4896640633299514e-005</location_covariance>
+      </camera>
+      <camera id="29" sensor_id="10" label="inferredImage1_cam10_0">
+        <transform>9.9710942915021095e-001 7.3449212116861728e-002 -1.9442210243522232e-002 -7.7136526277048822e-001 6.5952651261360226e-002 -9.6376142742261484e-001 -2.5848434924366359e-001 2.7322193415900577e+000 -3.7723124093034410e-002 2.5645491660667241e-001 -9.6581977700652111e-001 4.1710069910557479e+000 0 0 0 1</transform>
+        <rotation_covariance>4.1611265046781202e-008 1.1006253511453958e-008 -1.2971893341153208e-008 1.1006253511453958e-008 1.7260775772936360e-007 3.9352875530110592e-008 -1.2971893341153208e-008 3.9352875530110585e-008 2.7470607606589449e-008</rotation_covariance>
+        <location_covariance>1.3574088792987686e-005 -2.3260500103714436e-006 -1.3959514189966604e-005 -2.3260500103714436e-006 5.3926165307652844e-006 2.3265165925423003e-006 -1.3959514189966604e-005 2.3265165925423003e-006 3.4541604902017453e-005</location_covariance>
+      </camera>
+      <camera id="30" sensor_id="11" label="inferredImage2_cam1_0">
+        <transform>7.6727582458320343e-001 2.8904508505120934e-002 6.4066554332057135e-001 -3.3321345632090504e+000 2.2944278136606110e-002 -9.9958147967105626e-001 1.7618898927321318e-002 -3.0828314280804797e-001 6.4090667738053408e-001 1.1810532157783980e-003 -7.6761789713525153e-001 3.2129006574716317e+000 0 0 0 1</transform>
+        <rotation_covariance>5.8525586002797589e-008 -3.0415489544906343e-009 2.8585707691428857e-009 -3.0415489544906330e-009 2.0929594073879872e-007 1.2082491049940419e-008 2.8585707691428902e-009 1.2082491049940417e-008 5.4121107155882621e-009</rotation_covariance>
+        <location_covariance>3.0626730083340390e-005 2.9566999172808101e-006 -1.9730685960486657e-005 2.9566999172808101e-006 3.5668351465410157e-006 -3.6389291881633656e-006 -1.9730685960486657e-005 -3.6389291881633656e-006 3.5358418487484516e-005</location_covariance>
+      </camera>
+      <camera id="31" sensor_id="12" label="inferredImage2_cam2_0">
+        <transform>9.9474786015682692e-001 7.1705002464400439e-002 -7.3041682175279982e-002 -5.2919109562355238e-001 7.5987807663040835e-002 -9.9544096277369321e-001 5.7646706052869673e-002 -2.9192054770661541e-001 -6.8575125227585298e-002 -6.2894214787701352e-002 -9.9566147356732604e-001 4.0885901054758396e+000 0 0 0 1</transform>
+        <rotation_covariance>5.1088298104383877e-008 -4.7663701613223920e-009 -1.5528531109667598e-008 -4.7663701613223953e-009 2.2207836894100392e-007 -2.3473201187143763e-009 -1.5528531109667601e-008 -2.3473201187143738e-009 1.5586151204468658e-008</rotation_covariance>
+        <location_covariance>1.7939301605068556e-005 7.6672256161021513e-007 -1.1366732039536454e-005 7.6672256161021513e-007 3.6335610016369181e-006 -4.7287540600826189e-006 -1.1366732039536454e-005 -4.7287540600826189e-006 3.9407198793759039e-005</location_covariance>
+      </camera>
+      <camera id="32" sensor_id="13" label="inferredImage2_cam3_0">
+        <transform>6.9952941827956439e-001 1.2394531209674511e-002 -7.1449630408949483e-001 2.2092717331280616e+000 6.8292039209837327e-002 -9.9643283928464088e-001 4.9576145228440234e-002 -1.7489677485454486e-001 -7.1133310786298809e-001 -8.3474381646357579e-002 -6.9788053223079738e-001 2.8360838936684054e+000 0 0 0 1</transform>
+        <rotation_covariance>4.8725125853678091e-008 -1.7293995801346612e-008 -1.0436464899734726e-008 -1.7293995801346612e-008 3.1551701612515006e-007 -9.7177037395103179e-009 -1.0436464899734729e-008 -9.7177037395103196e-009 3.8031608396216417e-008</rotation_covariance>
+        <location_covariance>5.0185294638665071e-005 -2.9924306341511093e-006 2.1966337053479564e-005 -2.9924306341511093e-006 3.4841513667395352e-006 -3.3032187051230163e-006 2.1966337053479564e-005 -3.3032187051230163e-006 5.3853227155283327e-005</location_covariance>
+      </camera>
+      <camera id="33" sensor_id="14" label="inferredImage2_cam4_0">
+        <transform>-3.8664740974123951e-002 2.6362759465101665e-002 -9.9890442121295564e-001 3.0502800572916060e+000 4.1049582281445264e-003 -9.9963929606338175e-001 -2.6541045266763957e-002 -1.8922366144140012e-002 -9.9924380764823839e-001 -5.1266635634100027e-003 3.8542576423463218e-002 -2.2527553517273335e-001 0 0 0 1</transform>
+        <rotation_covariance>8.5410673604757266e-008 -8.6849472703094250e-009 3.6456033565548717e-009 -8.6849472703094234e-009 3.7103983106998333e-007 2.3010071583666106e-009 3.6456033565548709e-009 2.3010071583666114e-009 3.6210621965004117e-008</rotation_covariance>
+        <location_covariance>1.2065863011153651e-004 4.7616757087772163e-006 -3.0922802188771199e-005 4.7616757087772163e-006 4.2738874242488786e-006 -6.7407594408131190e-007 -3.0922802188771199e-005 -6.7407594408131190e-007 3.0073190134978344e-005</location_covariance>
+      </camera>
+      <camera id="34" sensor_id="15" label="inferredImage2_cam5_0">
+        <transform>-7.7589921016779850e-001 1.1422119477753598e-001 -6.2043044277709292e-001 1.7093111445256535e+000 1.0019880024378258e-002 -9.8111723234990533e-001 -1.9315428649232519e-001 6.4548438212853262e-002 -6.3077731226264344e-001 -1.5608489693001804e-001 7.6010360299439561e-001 -2.6619002265853577e+000 0 0 0 1</transform>
+        <rotation_covariance>1.4542511309170413e-007 -9.8683663576486045e-009 -3.8277661467200803e-009 -9.8683663576486045e-009 5.8177738431174677e-007 6.6045931895985518e-008 -3.8277661467200935e-009 6.6045931895985518e-008 3.4309422041950374e-008</rotation_covariance>
+        <location_covariance>1.4358031739496288e-004 2.0701797420607889e-005 -1.3266854635278079e-004 2.0701797420607889e-005 7.9202335936897899e-006 -2.4633925310313010e-005 -1.3266854635278079e-004 -2.4633925310313010e-005 1.9731358053600353e-004</location_covariance>
+      </camera>
+      <camera id="35" sensor_id="16" label="inferredImage2_cam6_0">
+        <transform>-9.9803854491034538e-001 4.8596206729548924e-002 3.9464814262064968e-002 -1.1325909086028272e+000 -5.3133070953323369e-002 -9.9092131795289973e-001 -1.2349825260932962e-001 5.3867762923812457e-002 3.3104979146791086e-002 -1.2535290310953237e-001 9.9155973599057678e-001 -4.0073030898934032e+000 0 0 0 1</transform>
+        <rotation_covariance>1.1449506310275793e-007 2.7950818199857435e-008 -2.4232968016071266e-009 2.7950818199857432e-008 5.5192089430946089e-007 5.0939941035587774e-008 -2.4232968016071266e-009 5.0939941035587787e-008 3.8247487213805858e-008</rotation_covariance>
+        <location_covariance>4.2399932122375317e-005 6.5579888316009252e-008 -1.2597787542457319e-005 6.5579888316009252e-008 5.2565429842474620e-006 -1.8788177205900141e-005 -1.2597787542457319e-005 -1.8788177205900141e-005 2.9748557581959633e-004</location_covariance>
+      </camera>
+      <camera id="36" sensor_id="17" label="inferredImage2_cam7_0">
+        <transform>-6.3250594539117655e-001 2.4976460277080559e-002 7.7415270165313110e-001 -3.7633667882101536e+000 -5.4819080390525667e-002 -9.9841709174636506e-001 -1.2576936585161029e-002 -1.4363150356007137e-001 7.7261316159508442e-001 -5.0393326351388087e-002 6.3287393309354367e-001 -2.2208423169894456e+000 0 0 0 1</transform>
+        <rotation_covariance>9.0213190130742516e-008 1.9016065340302042e-008 -5.7921530377977755e-009 1.9016065340302032e-008 6.2298259138171165e-007 8.7691051112593337e-009 -5.7921530377977855e-009 8.7691051112593321e-009 4.7497576859729220e-008</rotation_covariance>
+        <location_covariance>1.0106839126472769e-004 4.4584442144943141e-006 5.6148968949624920e-005 4.4584442144943141e-006 4.8192383386365253e-006 1.5097809870826665e-006 5.6148968949624920e-005 1.5097809870826665e-006 1.2102480306057114e-004</location_covariance>
+      </camera>
+      <camera id="37" sensor_id="18" label="inferredImage2_cam8_0">
+        <transform>-6.4250372742574446e-003 7.9218901107617298e-002 9.9683653855751397e-001 -4.5562637994265929e+000 -5.3781338753957311e-002 -9.9544171493918543e-001 7.8761410352817335e-002 -2.0414450225548411e-001 9.9853206583356957e-001 -5.3105158565193891e-002 1.0656248679020205e-002 5.8065574376544238e-001 0 0 0 1</transform>
+        <rotation_covariance>6.9605814570823121e-008 1.4342971168142585e-008 1.9432561095670093e-008 1.4342971168142587e-008 3.7111271219063957e-007 -6.3034594003452886e-009 1.9432561095670097e-008 -6.3034594003452820e-009 2.7540705000012583e-008</rotation_covariance>
+        <location_covariance>1.2170085623093165e-004 7.4120102623392762e-006 -4.5712318803632365e-006 7.4120102623392762e-006 5.1709076012419717e-006 -7.9558222940724674e-007 -4.5712318803632365e-006 -7.9558222940724674e-007 3.8955686693375972e-005</location_covariance>
+      </camera>
+      <camera id="38" sensor_id="19" label="inferredImage2_cam9_0">
+        <transform>7.4362059688326521e-001 -7.9102128951110989e-002 6.6390606345052916e-001 -3.4238005398855313e+000 2.5327708426938596e-002 -9.8893127985260865e-001 -1.4619654891590825e-001 2.7022170017002538e+000 6.6812193129459241e-001 1.2552998416507305e-001 -7.3338619294250440e-001 3.2765149817250170e+000 0 0 0 1</transform>
+        <rotation_covariance>5.4945163464527614e-008 4.3219671407043941e-009 8.0939716855114638e-009 4.3219671407043933e-009 2.3713001450844948e-007 3.0213669321833628e-008 8.0939716855114655e-009 3.0213669321833628e-008 2.0276886599503914e-008</rotation_covariance>
+        <location_covariance>3.1635096030257196e-005 -5.5907182044898943e-006 -1.8213159725194791e-005 -5.5907182044898943e-006 7.6090401446906099e-006 2.3510184746079358e-006 -1.8213159725194791e-005 2.3510184746079358e-006 3.5164242009021327e-005</location_covariance>
+      </camera>
+      <camera id="39" sensor_id="20" label="inferredImage2_cam10_0">
+        <transform>9.9711138929333532e-001 7.3330124615471087e-002 -1.9788131932884909e-002 -6.2591936152731620e-001 6.5748895483593264e-002 -9.6377622251850437e-001 -2.5848109341042735e-001 2.7403171309953041e+000 -3.8025781835503536e-002 2.5643339433826096e-001 -9.6581362290245032e-001 4.1645504582349515e+000 0 0 0 1</transform>
+        <rotation_covariance>4.3988736651480654e-008 1.1048430780250835e-008 -1.3035325511112872e-008 1.1048430780250832e-008 1.7620077677276246e-007 4.0153731740198945e-008 -1.3035325511112872e-008 4.0153731740198945e-008 2.7385816552227589e-008</rotation_covariance>
+        <location_covariance>1.2258365744799949e-005 -4.2049531191430591e-006 -1.7186945554333461e-005 -4.2049531191430557e-006 3.4776536126161106e-006 9.2369159099806107e-007 -1.7186945554333465e-005 9.2369159099806351e-007 3.6242978504183756e-005</location_covariance>
+      </camera>
+    </cameras>
+    <reference>LOCAL_CS["Local Coordinates (m)",LOCAL_DATUM["Local Datum",0],UNIT["metre",1,AUTHORITY["EPSG","9001"]]]</reference>
+    <region>
+      <center>-7.2619359759989122e-001 1.5587320458480830e-001 6.9560774179416002e-002</center>
+      <size>1.5475309371948242e+001 1.5285269165039061e+001 8.3825069427490231e+000</size>
+      <R>-9.0189727865336175e-002 1.5282990873823937e-001 -9.8412846315033387e-001 -9.9449820702054648e-001 -6.6688095416373480e-002 8.0783749372354066e-002 -5.3283479808428784e-002 9.8599985645272703e-001 1.5800365139675310e-001</R>
+    </region>
+    <settings>
+      <property name="accuracy_tiepoints" value="1"/>
+      <property name="accuracy_cameras" value="10"/>
+      <property name="accuracy_cameras_ypr" value="10"/>
+      <property name="accuracy_markers" value="0.005"/>
+      <property name="accuracy_scalebars" value="0.001"/>
+      <property name="accuracy_projections" value="0.5"/>
+    </settings>
+    <meta>
+      <property name="AlignCameras/adaptive_fitting" value="true"/>
+      <property name="AlignCameras/cameras" value=""/>
+      <property name="AlignCameras/duration" value="27.147"/>
+      <property name="AlignCameras/network_distribute" value="true"/>
+      <property name="AlignCameras/reset_alignment" value="false"/>
+      <property name="OptimizeCameras/sigma0" value="0.151932385954166"/>
+    </meta>
+  </chunk>
+</document>
